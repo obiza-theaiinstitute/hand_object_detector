@@ -25,7 +25,7 @@ archive/
 
 # packages from other repos
 frankmocap/
-hand_object_detector/
+# hand_object_detector/
 
 models/*
 predata_dandan/multitask/*.json

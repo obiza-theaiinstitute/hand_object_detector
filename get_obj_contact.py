@@ -13,14 +13,14 @@ import numpy as np
 import cv2
 import torch
 # from scipy.misc import imread
-from model.utils.config import cfg, cfg_from_file, cfg_from_list, get_output_dir
-from model.rpn.bbox_transform import clip_boxes
-# from model.nms.nms_wrapper import nms
-from model.roi_layers import nms
-from model.rpn.bbox_transform import bbox_transform_inv
-from model.utils.net_utils import save_net, load_net, vis_detections, vis_detections_PIL, vis_detections_filtered_objects_PIL, vis_detections_filtered_objects # (1) here add a function to viz
-from model.utils.blob import im_list_to_blob
-from model.faster_rcnn.resnet import resnet
+from hand_object_detector.model.utils.config import cfg, cfg_from_file, cfg_from_list, get_output_dir
+from hand_object_detector.model.rpn.bbox_transform import clip_boxes
+# from hand_object_detector.model.nms.nms_wrapper import nms
+from hand_object_detector.model.roi_layers import nms
+from hand_object_detector.model.rpn.bbox_transform import bbox_transform_inv
+from hand_object_detector.model.utils.net_utils import save_net, load_net, vis_detections, vis_detections_PIL, vis_detections_filtered_objects_PIL, vis_detections_filtered_objects # (1) here add a function to viz
+from hand_object_detector.model.utils.blob import im_list_to_blob
+from hand_object_detector.model.faster_rcnn.resnet import resnet
 import pdb
 import re
 from tqdm import tqdm
